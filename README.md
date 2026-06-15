@@ -1,105 +1,174 @@
+# 📊 Tableau Data Analysis Projects
 
-# Tableau Projects ![icons8-tableau-software-48](https://github.com/swaapnaa/TABLEAU-PROJECTS/assets/149737403/5324eb1a-8bb8-405f-ae23-5988bcfdd675)
+![Tableau](https://img.shields.io/badge/Tool-Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-3-blue?style=for-the-badge)
 
+## 📌 Repository Overview
 
-This repository contains Tableau dashboard, visualization, and data analysis projects I have created.
+A collection of **3 end-to-end Tableau dashboard projects** covering HR analytics, automotive industry trends, and call center performance analysis. Each project includes a real-world dataset, a packaged Tableau workbook (`.twbx`), and a dashboard screenshot.
 
-## Analyzing Employee Trends
+---
 
- [Analyzing Employee Trends.twbx](Analyzing Employee Trends Dashboard.png)
+## 📂 Repository Structure
 
- ## Project Description
+```
+TABLEAU-PROJECTS/
+│
+├── Analyzing Employee Trends/
+│   ├── Analyzing Employee Trends.csv       # HR dataset
+│   ├── Analyzing Employee Trends.twbx      # Tableau packaged workbook
+│   └── Tableau Dashboard.png               # Dashboard screenshot
+│
+├── Exploring Trends in the Automotive Industry/
+│   ├── Exploring Trends in the Automotive Industry.csv   # Used car dataset
+│   ├── Exploring Trends in the Automotive Industry.twbx  # Tableau packaged workbook
+│   └── Tableau Dashboard.png               # Dashboard screenshot
+│
+└── CallCenter_Data Analysis/
+    ├── CallCenter_Data Analysis.twbx       # Tableau packaged workbook
+    └── CallCenter_Data Analysis.png        # Dashboard screenshot
+```
 
- This interactive Tableau dashboard was created to visualize and analyze HR data to derive insights into the employee base. The key goals were to:
- 
- - Provide analysis of employee distribution across business units and roles
- - Identify trends in demographics like age, gender, education level
- - Evaluate employee satisfaction and engagement metrics
- - Analyze factors related to employee attrition and turnover
- - Enable data-driven decision making around HR initiatives
+---
 
-The dashboard brings together employee data from various HR systems into a unified view. It allows slicing and dicing the data by departments, demographics, job attributes and other dimensions.
+## 🚀 Projects
 
-Some key visualizations include:
+---
 
-- Headcount and demographics analysis
-- Employee spread by business unit, job function
-- Satisfaction scoring trends over time
-- Attrition rates by age, gender, job role
-- Compensation and performance analysis
-- HR KPIs and metrics
+### 📁 Project 1 — Analyzing Employee Trends (HR Analytics)
+
+**Domain:** Human Resources | **Goal:** Understand workforce composition, attrition, and satisfaction
+
+#### Dashboard Features
+- Headcount breakdown by business unit, department, and job role
+- Demographic distribution: age, gender, education level
+- Employee satisfaction and engagement score trends
+- Attrition rate analysis by age group, gender, and job role
+- Compensation vs. performance correlation
+- Key HR KPIs and metrics overview
+
+#### Key Insights
+- Departments with low satisfaction scores show significantly higher attrition
+- Younger employees (20–30) have the highest turnover rate
+- Education level correlates with compensation but not directly with satisfaction
+
+#### Dataset
+- **Type:** HR employee records
+- **Key Fields:** Employee ID, Department, Job Role, Age, Gender, Education, Satisfaction Score, Attrition Status, Monthly Income
 
 ![Tableau Dashboard](https://github.com/swaapnaa/TABLEAU-PROJECTS/assets/149737403/f7622138-227d-488e-8fa0-576dba6c6372)
+---
 
-## Exploring Trends in the Automotive Industry
+### 📁 Project 2 — Exploring Trends in the Automotive Industry
 
- [Exploring Trends in the Automotive Industry.twbx](Exploring Trends in the Automotive Industry.png)
+**Domain:** Automotive / Used Car Market | **Goal:** Analyze pricing, sales patterns, and market trends
 
- ## Project Description
+#### Dashboard Features
+- Used car sales price trends over time
+- Pricing analysis by fuel type (Petrol, Diesel, CNG, Electric)
+- Sales volume by transmission type (Manual vs. Automatic)
+- Dealer type and owner type breakdown
+- Mileage vs. Price correlation analysis
+- Price forecasting based on historical trends
 
- This project involved creating an interactive Tableau dashboard to visualize and analyze used car sales data. The key goals were to:
+#### Key Insights
+- Automatic transmission cars command a 15–20% price premium on average
+- Diesel vehicles maintain value better over higher mileage
+- First-owner cars show significantly higher resale value than second/third-owner
+- Electric vehicles, though fewer in volume, show the highest average listing price
 
-- Provide insights into sales trends over time
-- Compare performance by transmission, fuel type, ownership etc.
-- Analyze sales and pricing by different car segments
-- Identify relationships between mileage, age and pricing
-- Enable data-driven decision making for inventory, pricing and marketing
-
-The dashboard combines used car listing data from various sources. It allows slicing and dicing - the data by relevant dimensions using filters and parameters.
-
-Key visualizations include:
-
-- Sales price trends over time
-- Analysis of average pricing, mileage by fuel type, transmission
-- Used car volume by dealer type, owner types
-- Correlation analysis between pricing factors
-- Forecasting of future pricing based on trends
+#### Dataset
+- **Type:** Used car listings dataset (India market)
+- **Size:** ~1,000+ records
+- **Key Fields:** Car Name, Year, Selling Price, Present Price, Kms Driven, Fuel Type, Seller Type, Transmission, Owner Count
 
 ![Tableau Dashboard](https://github.com/swaapnaa/TABLEAU-PROJECTS/assets/149737403/66894295-1d4a-414f-a8d7-0ce85ed178e8)
+---
 
-## CallCenter Data Analysis
+### 📁 Project 3 — Call Center Data Analysis
 
- [CallCenter Data Analysis.twbx](Callcenter Data Analysis.png)
+**Domain:** Customer Service / Operations | **Goal:** Optimize call center performance and identify service gaps
 
- ## Project Description
+#### Dashboard Features
+- Call volume trends by time period and channel (Phone, Email, Chat, Web)
+- Sentiment breakdown: Positive, Neutral, Negative calls
+- Most common complaint categories / call drivers
+- Response time analysis vs. SLA targets
+- Performance comparison across call center locations
+- Channel-wise volume and resolution rate
 
- This project involved creating an interactive Tableau dashboard to visualize and analyze call center data. The key goals were to:
+#### Key Insights
+- Peak call volumes on Mondays and Fridays require additional staffing
+- Billing-related complaints account for the highest call volume (28%)
+- Chat channel shows the highest customer satisfaction score
+- Location B consistently misses SLA targets during peak hours
 
-- Provide insights into call volume, sentiment, and complaint types
-- Identify trends in response time and service level adherence
-- Compare performance across different channels and locations
-- Enable data-driven decision making for call center operations
+![CallCenter_Data Analysis](https://github.com/swaapnaa/TABLEAU-PROJECTS/assets/149737403/bb7c3dfc-9b86-4f96-9e41-b6212e546aa7)
 
-The dashboard combines data from call logs, transcripts, surveys, and other sources. It utilizes various charts, metrics, and filters to slice the data by relevant dimensions.
+---
 
-Key visualizations include:
+## 🛠️ Tools & Skills Used
 
-- Call volume and sentiment breakdowns
-- Analysis of call drivers by most common complaint reasons
-- Response time analysis against service level agreements
-- Call center volume and performance by location
-- Channel analysis comparing call center, email, chat, and web
+| Skill | Details |
+|---|---|
+| **Tableau Desktop** | Dashboard and workbook development |
+| **Data Connection** | CSV and Excel data sources |
+| **Calculated Fields** | Custom metrics and KPI calculations |
+| **Filters & Parameters** | Interactive dashboard controls |
+| **Chart Types** | Bar, line, scatter, heatmap, treemap, KPI cards |
+| **Dashboard Design** | Multi-chart layouts, color themes, annotations |
+| **Forecasting** | Built-in trend lines and forecast models |
 
- ![CallCenter_Data Analysis](https://github.com/swaapnaa/TABLEAU-PROJECTS/assets/149737403/bb7c3dfc-9b86-4f96-9e41-b6212e546aa7)
+---
 
-## About Tableau
+## 🚀 How to Use
 
-Tableau is a powerful data visualization and business intelligence tool. Some key features:
+1. Clone or download this repository
+2. Install **Tableau Public** (free) from [tableau.com/products/public](https://www.tableau.com/products/public/download)
+3. Navigate to any project folder
+4. Open the `.twbx` file — it includes the data, so no separate dataset connection is needed
+5. Explore the interactive dashboard using filters, slicers, and drill-downs
 
-- Drag and drop interface to build interactive dashboards 
+> **Tip:** `.twbx` is a packaged workbook that bundles both the Tableau workbook and the data. No additional setup is needed after opening in Tableau.
 
-- Broad data connectivity to combine data sources 
+---
 
-- Diverse visualization types including maps, charts, graphs etc.
+## 🧠 Skills Demonstrated (Resume Relevant)
 
-- Smart analytics with trendlines, forecasting, clustering etc.
+- ✅ End-to-end Tableau dashboard development
+- ✅ Exploratory data analysis (EDA) on real-world datasets
+- ✅ Multi-domain analytics: HR, Automotive, Customer Service
+- ✅ KPI design and business performance tracking
+- ✅ Interactive filtering and parameter-based controls
+- ✅ Data storytelling through clean, professional visuals
+- ✅ Trend analysis and built-in forecasting
 
-- Sharing capabilities for visualizations and dashboards
+---
 
-## How to Use
+## 📸 Dashboard Previews
 
-1. Download and install Tableau Desktop
-2. Download the .twbx file for any project
-3. Open the file in Tableau to interact with the visualizations
-4. Connect to your own data sources to create custom dashboards
+### Employee Trends Dashboard
+![Employee Trends](Analyzing%20Employee%20Trends/Tableau%20Dashboard.png)
 
+### Automotive Industry Dashboard
+![Automotive](Exploring%20Trends%20in%20the%20Automotive%20Industry/Tableau%20Dashboard.png)
+
+### Call Center Dashboard
+![Call Center](CallCenter_Data%20Analysis/CallCenter_Data%20Analysis.png)
+
+---
+
+## 👤 Author
+
+**[Your Name]**  
+📧 [your.email@example.com]  
+🔗 [LinkedIn Profile URL]  
+🐙 [GitHub Profile URL]  
+📊 [Tableau Public Profile URL]
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
