@@ -161,11 +161,8 @@ TABLEAU-PROJECTS/
 
 ## 👤 Author
 
-**[Your Name]**  
-📧 [your.email@example.com]  
-🔗 [LinkedIn Profile URL]  
-🐙 [GitHub Profile URL]  
-📊 [Tableau Public Profile URL]
+**[Mayank Aneja]**  
+📧 [mayankaneja2003@gmail.com]
 
 ---
 
